@@ -1,0 +1,55 @@
+<app-header></app-header>
+
+
+<div class="card-top container-fluid">
+    <div class="container row d-flex">
+        <div class="item col-sm-2">
+            <a  (click)="getallproducts()" routerlink="/allproducts"> 
+                <img src="../../assets/pngkey.com-grocery-store-png-2849902.png"> 
+                <h6 class="vv">All products</h6>
+            </a>
+        </div>
+       <div class="item col-sm-2" >
+            <a (click)="getmen()" >
+                <img src="../../assets/portrait-handsome-confident-stylish-hipster-lambersexual-model-with-curly-hairstyle-sexy-man-dressed-jeans-jacket-fashion-male-isolated-grey-wall-studio-sunglasses_158538-26644.avif"> 
+                <h6 class="vv">Men</h6>
+            </a>
+        </div>
+        <div class="item col-sm-2" >
+            <a (click)="getwomen()"  > 
+                <img src="../../assets/Women-clothing-banner-desktop-view_28_07_2023_1920x475.jpg"> 
+                <h6 class="vv">women</h6>
+            </a>
+        </div>
+        <div class="item col-sm-2">
+            <a (click)="getjwellery()"  > 
+                <img src="../../assets/AdobeStock_55989184_Preview.jpeg"> 
+                <h6 class="vv">Jwellery</h6>
+            </a>
+        </div>
+       <div class="item col-sm-2">
+            <a (click)="getelectronics()"   > 
+                <img src="../../assets/pngaaa.com-3403766.png"> 
+                <h6 class="vv">Electronics</h6>
+            </a>
+        </div>
+      
+    </div>
+</div>
+
+<div class="container">
+    <div class="row" >
+        <ng-container *ngFor="let item of ProductsList">
+            <div class="card col-md-3"     *ngIf= "(searchtext==='' || item.title.toLowerCase().includes(searchtext.toLowerCase)) " >
+                <img src="{{item.image}}">
+                <h5 style="white-space: nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100ch">{{item?.title}}</h5>
+                <p style="white-space: nowrap;overflow:hidden;text-overflow: ellipsis;max-width:100ch">{{item?.description}}</p>
+                <p><strong>Price:</strong>${{item?.price}}</p>
+                <button class="btn  addcart btn-primary"   (click)="addtocart(item)">Add to Cart</button>
+                <button class="btn buy" [routerLink]="['/products',item?.id]" (click)="buyproducts(item)" >Buynow</button>
+          </div>
+        
+        </ng-container>
+    </div>
+   
+</div>

@@ -1,0 +1,68 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ",
+      "price": 999.99,
+      "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+      "rating": { "rate": 2.2, "count": 140 }
+    },
+    {
+      "id": 2,
+      "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+      "price": 109,
+      "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+      "rating": { "rate": 2.9, "count": 470 }
+    },
+    {
+      "id": 3,
+      "title": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
+      "price": 109,
+      "description": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+      "rating": { "rate": 4.8, "count": 319 }
+    },
+    {
+      "id": 4,
+      "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
+      "price": 599,
+      "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+      "rating": { "rate": 2.9, "count": 250 }
+    },
+    {
+      "id": 5,
+      "title": "Midea 591L Side By Side Refrigerator with Inverter (MRF5920WDSSF, Silver, SS Finish, Water Dispenser)",
+      "price": 800,
+      "description": "Side-By-Side Frost Free Refrigerator .Premium Refrigerators with Stainless Steel Finish that enhances the décor of your kitchen. Capacity-591 L Suitable for families with 5 or more members.Manufacturer Warranty : 1 year on product , 10 years on compressor(T&C)",
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/I/21pDh19orTL._SX342_SY445_QL70_FMwebp_.jpg",
+      "rating": { "rate": 5, "count": 70}
+    },
+    {
+       "id": 6,
+       "title": "Wonderchef Crescent Electric Kettle 1.5 Litres, 2 years Warranty",
+       "price": 80,
+       "description": "User-friendly; 360-degree rotating base with plug-in facility. Capacity: 1.5 L.Embedded optimal power-consuming technology; Wattage:1500 Watts",
+       "category": "electronics",
+       "image": "https://m.media-amazon.com/images/I/51oOHoH74RL._AC_UY218_.jpg",
+       "rating": { "rate": 4, "count": 400 }
+    },
+    {
+        "id": 7,
+        "title": "ASUS VivoBook 15 (2021), 15.6-inch (39.62 cm) HD, Dual Core Intel Celeron N4020, Thin and Light Laptop (4GB RAM/256GB SSD/Integrated Graphics/Windows 11 Home/Transparent Silver/1.8 Kg), X515MA-BR011W",
+        "price": 580,
+        "description": "Processor: Intel Celeron N4020, 1.1 GHz base speed, Up to 2.8 GHz Turbo Speed, 2 cores, 2 Threads, 4MB Cache.Memory & Storage: 4GB SO-DIMM DDR4 2400MHz RAM, Support up to 8GB using 1x SO-DIMM Slot with | Storage: 256GB M.2 NVMe PCIe SSD. Display: 15.6-inch (39.62 cms), LED-Backlit LCD, HD (1366 x 768) 16:9, 220nits, NanoEdge bezel, Anti-Glare Plane with 45% NTSC, 82% Screen-To-Body Ratio",
+        "category": "electronics",
+        "image": "https://m.media-amazon.com/images/I/41rJ+ha25XL._AC_SR400,600_.jpg",
+        "rating": { "rate": 3, "count": 400 }
+    }
+
+  ]
+}
