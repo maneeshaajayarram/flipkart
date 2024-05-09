@@ -1,0 +1,27 @@
+.container{
+   margin: 10%;
+}
+.card{padding:5%}
+img{
+    margin-left:30% ;
+    width: 250px;
+    height: 300px 
+}
+h4{
+    color: cadetblue;
+    margin-top: 5%;
+    margin-bottom: 2%
+}
+.btndiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+   
+}
+.addbtn{
+    width: 30%;     
+}
+.buybtn{
+    width: 30%;
+}

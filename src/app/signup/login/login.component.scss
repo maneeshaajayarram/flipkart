@@ -1,0 +1,40 @@
+.card{
+   width: 300px;
+   margin-top:10%;
+   background-color:antiquewhite ;
+   margin-bottom: 10%;
+}
+
+h4{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 7%;
+}
+.sbtn{
+    font-weight: bold;
+    padding: 2% 1%;
+    border-width: 0px;
+    color: white;
+    border-radius: 5%;
+    background-color: blue;
+    margin-top: 5%
+}
+.sbtn:hover{
+    background-color: cornflowerblue;
+
+}
+#email{
+    margin-bottom: 5%;
+}
+#password{
+    margin-bottom: 5%;
+}
+small div{
+    color: red;
+}
+.container-fluid{
+    background-color: aliceblue;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+

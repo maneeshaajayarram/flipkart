@@ -1,0 +1,33 @@
+<div class="navbar navbar-fixed-top sticky-top bg-primary ">
+    <div class="col-sm-3">
+     <img class="logo" src="../../assets/PngItem_31648.png">
+    </div>
+    <div class="col-sm-5">
+        <div class="form-group d-flex ">
+         <input type="text" placeholder="search here for products,brands and more.."  class="form-control d-inline "  [(ngModel)]="searchtext"  >
+         <button class="sbtn d-inline" type="submit" (click)="sentSearchText()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+          </svg>
+           </button>
+        </div>
+        <!-- <div class="searchdiv" *ngIf="searchtext" >
+          Search for:  {{searchtext}}
+          <button class="clearbtn" (click)="clear()" [routerLink]="['/products']">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+              <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+            </svg>
+          </button>
+        </div> -->
+    </div>
+    <div class="col-sm-2 d-flex justify-content-center">
+      <button class="btn btn-primary d-flex justify-content-center"  [routerLink]="['/cart']" routerLinkActive="router-link-active" >
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-check" viewBox="0 0 16 16">
+          <path d="M11.354 6.354a.5.5 0 0 0-.708-.708L8 8.293 6.854 7.146a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0z"/>
+          <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+        </svg> -->
+        <i class="bi bi-cart-check"></i>
+        <div  class="badge bg-danger"> {{totalitem}} </div>
+      </button>
+    </div>
+</div>

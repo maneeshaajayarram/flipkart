@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": "6711",
+      "fname": "gdhg",
+      "lname": "hdgdsf",
+      "email": "vcsd@gmail.com",
+      "password": "Mani@123"
+    },
+    {
+      "id": "8929",
+      "fname": "ajay",
+      "lname": "arram",
+      "email": "ajj@gmail.com",
+      "password": "Ajay@123"
+    },
+    {
+      "id": "366c",
+      "fname": "maneesha",
+      "lname": "arram",
+      "email": "maneeshaarram@gmail.com",
+      "password": "Mani@123"
+    },
+    {
+      "id": "2c87",
+      "fname": "ajay ",
+      "lname": "arram",
+      "email": "ajayajjv@gmail.com",
+      "password": "Ajay@123"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+.container-fluid{
+   background-color: aliceblue;
+}
+.card{
+    width: 350px;
+    margin-top: 5%;
+    padding-top: 2%;
+    background-color: antiquewhite;
+    margin-bottom: 5%;
+ }
+ 
+ h4{
+     text-align: center;
+     font-weight: bold;
+     margin-bottom: 7%;
+ }
+ .rbtn{
+     font-weight: bold;
+     padding: 2% 1%;
+     border-width: 0px;
+     color: white;
+     border-radius: 5%;
+     background-color: blue;
+     margin-top: 5%
+ }
+ .rbtn:hover{
+     background-color: cornflowerblue;
+ }
+ .form-control{
+     margin-bottom: 3%;
+ }
+ p{
+    margin-top: 5%
+ }
+ small div{
+    color: red;
+ }
+ h3{
+    color:cornflowerblue;
+    font-weight: bold;
+ }
+
+ 

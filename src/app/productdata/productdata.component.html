@@ -1,0 +1,16 @@
+<div class="container row">
+  <div class="card" col-sm-12>
+    <img src="{{ boughtproduct?.image }}" />
+     <div>
+        <h4>{{ boughtproduct?.title }}</h4>
+     </div>
+     <div class="mb-3">{{ boughtproduct?.description }}</div>
+     <div class="mb-3"><b>Price: $</b>{{ boughtproduct?.price }}</div>
+     <div class="mb-3"><b>Rating: </b>> {{ boughtproduct?.rating?.rate }}</div>
+     <div class="mb-3"><b>Ratingcount: </b> {{ boughtproduct?.rating?.count }}</div>
+     <div class="btndiv">
+       <button class="btn btn-primary addbtn" (click)="addToCart(boughtproduct)" [routerLink]="['/cart']" >Add to cart</button>
+       <button class="btn btn-warning buybtn">Buynow</button>
+     </div>
+  </div>
+</div>
